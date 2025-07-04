@@ -1,5 +1,3 @@
-# Customer-Marketing-Analysis
-
 # E-commerce Customer Analytics
 
 This repository contains code and analyses for understanding e-commerce customer behavior using event data. The goal is to identify customer segments and derive actionable insights to improve funnel conversion and marketing strategies.
@@ -20,8 +18,6 @@ This repository contains code and analyses for understanding e-commerce customer
   * [6. K-Means Clustering](#6-k-means-clustering)
 * [Results](#results)
 * [Future Work](#future-work)
-* [Contributing](#contributing)
-* [License](#license)
 
 ---
 
@@ -38,7 +34,8 @@ The aim of this project is to leverage event log data (views, carts, purchases) 
 
 ## Data
 
-* **Source:** Synthetic e-commerce event data containing `user_id`, `event_type` (view/cart/purchase), `category_code`, `brand`, `price`, `event_time`.
+* **Dataset:** [E-commerce behavior data from a multi-category store](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store)
+* **Source Schema:** Synthetic event log containing `user_id`, `event_type` (view/cart/purchase), `category_code`, `brand`, `price`, `event_time`.
 * **Format:** CSV or Parquet files loaded into a pandas DataFrame `df`.
 
 ---
@@ -122,6 +119,3 @@ pip install -r requirements.txt
 * Build predictive models to target likely buyers with personalized offers.
 
 ---
-
-
-
